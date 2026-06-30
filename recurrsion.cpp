@@ -22,6 +22,4 @@ int main()
     int n=10;
     cout<<"Factorial: "<<factorial(n)<<endl;
     cout<<"Fibbonacci: "<<fibbonacci(n)<<endl;
-
-
 }
