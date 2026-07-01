@@ -39,13 +39,13 @@ void spiralpattern(int arr[][4], int row, int col)
 
 
         if (top <= bottom){
-        for (int k = right; k >= left; k--){
-            //spiral.push_back(arr[bottom][k]);
-            cout<<arr[bottom][k]<<" ";
+            for (int k = right; k >= left; k--){
+                //spiral.push_back(arr[bottom][k]);
+                cout<<arr[bottom][k]<<" ";
             }
             bottom -= 1;
         }
-            if (left <= right){
+        if (left <= right){
             for (int l = bottom; l >= top; l--){
                 //spiral.push_back(arr[l][left]);
                 cout<<arr[l][left]<<" ";
